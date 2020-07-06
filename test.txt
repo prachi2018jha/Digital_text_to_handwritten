@@ -6,7 +6,7 @@ Seek Time - Seek time is the time taken in locating the disk arm to a specified 
 
 Rotational Latency - It is the time taken by the desired sector to rotate itself to the position from where it can access the R/W heads. #
 
-Transfer Time - It is the time taken to transfer the data. #
+Transfer Time - It is the time taken to transfer the data. ABC #
  
 Disk Access Time - Disk access time is given as;
 Disk Access Time = Rotational Latency + Seek Time + Transfer Time #
