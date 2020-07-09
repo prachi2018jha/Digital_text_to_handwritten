@@ -8,7 +8,7 @@ Rotational Latency - It is the time taken by the desired sector to rotate itself
 
 Transfer Time - It is the time taken to transfer the data. #
  
-Disk Access Time - Disk access time is given as;
+Disk Access Time - Disk access time is given as
 Disk Access Time = Rotational Latency + Seek Time + Transfer Time #
 
 Disk Response Time - It is the average of time spent by each request waiting for the IO operation. 
