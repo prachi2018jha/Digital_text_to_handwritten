@@ -1,19 +1,18 @@
-Q) What do you mean by      Disk Scheduling ? #
-Ans-> As we know, a process needs two type of time, CPU time and IO time. For I/O, it requests the Operating system to access the disk. However; the operating system must be fare enough to satisfy each request and at the same time, operating system must maintain the efficiency and speed of process execution.
-The technique that operating system uses to determine the request which is to be satisfied next is called disk scheduling. #
+Q) What do you mean by  Disk Scheduling? #
+Ans- As we know, a process needs two type of time, CPU time and IO time. For I/O, it requests the Operating system to access the disk. However; the operating system must be fare enough to satisfy each request and at the same time, operating system must maintain the efficiency and speed of process execution.
+ The technique that operating system uses to determine the request which is to be satisfied next is called disk scheduling. #
 Let's discuss some important terms related to disk scheduling. #
 Seek Time - Seek time is the time taken in locating the disk arm to a specified track where the read/write request will be satisfied.#
 
 Rotational Latency - It is the time taken by the desired sector to rotate itself to the position from where it can access the R/W heads. #
 
-Transfer Time - It is the time taken to transfer the data. ABC #
+Transfer Time - It is the time taken to transfer the data. #
  
 Disk Access Time - Disk access time is given as;
 Disk Access Time = Rotational Latency + Seek Time + Transfer Time #
 
 Disk Response Time - It is the average of time spent by each request waiting for the IO operation. 
-The main purpose of disk scheduling algorithm is to select a disk request from the queue of IO requests and decide the schedule when this request will be processed. #
-
+The main purpose of disk scheduling algorithm is to select a disk request from the queue of IO requests and decide the schedule when this request will be processed.
 Goal of Disk Scheduling Algorithm -- #
     Fairness #
     High throughout # 
